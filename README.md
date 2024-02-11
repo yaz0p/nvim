@@ -32,7 +32,7 @@ If you are ArchLinux user, you may need the following packages:
 - `noto-fonts-emoji`\*
 - `khaser/sway-vim-kbswitch` (GitHub)\*
 
-\* -- or some alternative
+-\* -- or some alternative
 
 ## Configuration
 
