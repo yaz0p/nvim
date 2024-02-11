@@ -32,7 +32,7 @@ If you are ArchLinux user, you may need the following packages:
 - `noto-fonts-emoji`\*
 - `khaser/sway-vim-kbswitch` (GitHub)\*
 
--\* -- or some alternative
+\* -- or some alternative
 
 ## Configuration
 
@@ -72,3 +72,5 @@ it.
 | `gr`                | Show references to the entity under the cursor  |
 | `<space>f`          | Format the working buffer                       |
 | `<leader>hb`        | Show the author of the line under the cursor    |
+| `<leader>ff`        | Finds files with a matching name for all files in the directory    |
+| `<leader>fg`        | Displays files with a matching name for all files in the directory     |
