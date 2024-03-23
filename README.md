@@ -70,7 +70,7 @@ it.
 | `<space>D`          | Go to the type definition                       |
 | `<space>rn`         | Rename the entity under the cursor              |
 | `gr`                | Show references to the entity under the cursor  |
-| `<space>f`          | Format the working buffer                       |
 | `<leader>hb`        | Show the author of the line under the cursor    |
 | `<leader>ff`        | Finds files with a matching name for all files in the directory    |
 | `<leader>fg`        | Displays files with a matching name for all files in the directory     |
+| `<leader>,`        | Format working buffer     |
