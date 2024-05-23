@@ -72,3 +72,4 @@ it.
 | `gr`                | Show references to the entity under the cursor  |
 | `<space>f`          | Format the working buffer                       |
 | `<leader>hb`        | Show the author of the line under the cursor    |
+| `\l<leader>`        | Show commands in LaTeX.                         |
