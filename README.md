@@ -31,6 +31,7 @@ If you are ArchLinux user, you may need the following packages:
 - `ttf-jetbrains-mono-nerd`\*
 - `noto-fonts-emoji`\*
 - `khaser/sway-vim-kbswitch` (GitHub)\*
+- `gopls`
 
 \* -- or some alternative
 

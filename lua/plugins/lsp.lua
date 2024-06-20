@@ -9,6 +9,12 @@ lspconfig.pylsp.setup {
 lspconfig.tsserver.setup {
   capabilities = capabilities,
 }
+lspconfig.ccls.setup {
+  capabilities = capabilities,
+}
+lspconfig.gopls.setup {
+  capabilities = capabilities
+}
 
 -- `:help vim.diagnostic.*`
 vim.keymap.set('n', '<space>e', vim.diagnostic.open_float)
@@ -51,3 +57,5 @@ for type, icon in pairs(signs) do
   local hl = 'DiagnosticSign' .. type
   vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = hl })
 end
+
+vim.lsp.set_log_level 'debug'

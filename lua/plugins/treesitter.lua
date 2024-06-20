@@ -19,6 +19,8 @@ require('nvim-treesitter.configs').setup {
     'css',
     'html', -- has Jinja2 support but only for HTML files
     'xml',
+    -- GO
+    'go'
   },
   -- Install parsers synchronously (only applied to `ensure_installed`)
   sync_install = false,
